@@ -1,0 +1,28 @@
+.navbar {
+    padding: 20px 0;
+    background-color: #eee;
+    box-shadow: 3px 1px 1px #333;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container ul {
+    display: flex;
+}
+
+.container ul li {
+    margin-left: 30px;
+}
+
+.container ul li a {
+    color: blueviolet;
+    font-weight: 100;
+}
+
+.logo {
+    font-size: 2rem;
+}

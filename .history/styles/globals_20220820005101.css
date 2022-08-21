@@ -30,5 +30,4 @@ ul {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     padding: 50px;
-    box-shadow: 3px 2px #eee;
 }

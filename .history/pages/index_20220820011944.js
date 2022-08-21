@@ -1,5 +1,5 @@
 import Products from "../component/Products";
-import Head from "next/head";
+import Head from "next/dist/shared/lib/head";
 
 const index = ({ productList }) => {
   return (

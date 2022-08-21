@@ -1,17 +1,11 @@
 import Products from "../component/Products";
-import Head from "next/head";
 
 const index = ({ productList }) => {
   return (
     <main className="container">
-      <Head>
-        <title>Project E-Commerce</title>
-      </Head>
-      <div className="main">
-        {productList.map((product) => (
-          <Products key={product.id} product={product} />
-        ))}
-      </div>
+      {productList.map((product) => (
+        <Products key={product.id} product={product} />
+      ))}
     </main>
   );
 };

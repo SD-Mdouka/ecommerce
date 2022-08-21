@@ -1,0 +1,17 @@
+.products {
+    border: 2px solid #efe;
+    padding: 20px;
+    text-align: center;
+}
+
+.btn-detaile {
+    padding: 10px 30px;
+    margin-top: 20px;
+    display: block;
+    background-color: aqua;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
